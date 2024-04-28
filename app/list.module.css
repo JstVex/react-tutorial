@@ -1,0 +1,25 @@
+.list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.item {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.checkbox {
+    margin-right: 15px;
+}
