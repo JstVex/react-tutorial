@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.titleInput {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.edit:hover {
+    color: #0070f3;
+    cursor: pointer;
+}

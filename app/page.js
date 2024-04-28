@@ -2,6 +2,7 @@
 
 import AddTask from "@/components/AddTask";
 import List from "@/components/List";
+import ListTitle from "@/components/ListTitle";
 import { useState } from "react";
 
 const initialTasks = [
@@ -26,7 +27,7 @@ export default function Home() {
 
   return (
     <main className="container">
-      <h1 className="title">To-Do List</h1>
+      <ListTitle />
       <AddTask onAddTask={addTask} />
       <List tasks={tasks} onToggleCompleted={toggleCompleted} />
     </main>
